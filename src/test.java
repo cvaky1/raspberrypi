@@ -12,9 +12,9 @@ public class test {
 		Robot robot = new Robot();
 		while (loop) {
 			
-			robot.delay(500);
 			String s = in.nextLine();
 			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(500);
 			if (s != "") {
 				System.out.println(s);
 			}
