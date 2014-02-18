@@ -83,6 +83,7 @@ public class BlinkGpioExample {
         
         System.out.println(" ... the LED will continue blinking until the program is terminated.");
         System.out.println(" ... PRESS <CTRL-C> TO STOP THE PROGRAM.");
+        System.out.println("test");
         
         // keep program running until user aborts (CTRL-C)
         for (;;) {
