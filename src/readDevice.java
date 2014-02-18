@@ -27,7 +27,8 @@ public class readDevice {
       byte[] buf = new byte[1024 * 64];
       int size;
       while ((size = inTape.read(buf)) >= 0) {
-        outFile.write(buf, 0, size);
+//        outFile.write(buf, 0, size);
+    	  System.out.println(buf);
       }
     }
     finally {
