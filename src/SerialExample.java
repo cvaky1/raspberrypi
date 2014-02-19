@@ -10,12 +10,12 @@ import com.pi4j.io.serial.SerialDataEvent;
 import com.pi4j.io.serial.SerialDataListener;
 import com.pi4j.io.serial.SerialFactory;
 
-class RFIDReaderBasic
+class SerialExample
 {
     // - Get an instance of Serial for COM interaction
     private final Serial serial = SerialFactory.createInstance();
 
-    public RFIDReaderBasic()
+    public SerialExample()
     {
         // - Change this to the COM port of your RFID reader
         String comPort = "/dev/hidraw0";
@@ -68,6 +68,6 @@ class RFIDReaderBasic
 
     public static void main( String[] args )
     {
-        new RFIDReaderBasic();
+        new SerialExample();
     }
 }
