@@ -23,6 +23,7 @@ class SerialExample
         // - Create and add a SerialDataListener
         serial.addListener(new SerialDataListener()
         {
+        	
             @Override
             public void dataReceived(SerialDataEvent event)
             {
